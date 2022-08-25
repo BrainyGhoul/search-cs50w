@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id=header>
+            <a href="Google Search.html"><div id=headerlogo></div></a>
+            <a href="Google Search.html" class="toplinks" style="position: absolute; right: 0%; top: 0%;">Search</a>
+        </div>
+        <div style="border-bottom: 1px solid #ebebeb; padding: 25px 45px;">
+            <span style="color: #D93025; font-size: 20px;">Advanced Search</span>
+        </div>
+        <form action="https://google.com/search" style="width:96%; margin:40px 2% 0 45px;">
+            <div class="stack">
+                <div class="textcontainer"></div>
+                <span style="font-size: 16px;" class="stacktext">Find pages with...</span>
+                <span class="inputbox" style="border: none;"></span>
+                <div class="infocontainer"><span class="infotext" style="font-weight: bold; font-size: 13px; margin-left: 0px;">To do this in the search box.</span></div>
+            </div>
+            <div class="stack">
+                <div class="textcontainer"><span class="stacktext">all these words:</span></div>
+                <input type="text" name="as_q" class="inputbox">
+                <div class="infocontainer">
+                    <span class="infotext">
+                        Type the important words:
+                        <span class="infotextmono">
+                            tri-colour rat terrier
+                        </span>
+                    </span>
+                </div>
+            </div>
+            <div class="stack">
+                <div class="textcontainer"><span class="stacktext">this exact word or phrase:</span></div>
+                <input type="text" name="as_epq" class="inputbox">
+                <div class="infocontainer">
+                    <span class="infotext">
+                        Put exact words in quotes:
+                        <span class="infotextmono">
+                             "rat terrier"
+                        </span>
+                    </span>
+                </div>
+            </div>
+            <div class="stack">
+                <div class="textcontainer"><span class="stacktext">any of these words:</span></div>
+                <input type="text" name="as_oq" class="inputbox">
+                <div class="infocontainer">
+                    <span class="infotext">
+                        Type OR between all the words you want:
+                        <span class="infotextmono">
+                             miniature OR standard
+                        </span>
+                    </span>
+                </div>
+            </div>
+            <div class="stack">
+                <div class="textcontainer"><span class="stacktext">none of these words:</span></div>
+                <input type="text" name="as_eq" class="inputbox">
+                <div class="infocontainer">
+                    <span class="infotext">
+                        Put a minus sign just before words that you don't want:
+                        <span class="infotextmono">
+                             -rodent, -"Jack Russell"
+                        </span>
+                    </span>
+                </div>
+            </div>
+            <div class="stack" style="height: auto;">
+                <div style="width: 55.75%; display: inline-block; text-align: right;">
+                    <input type="submit" value="Advanced Search" id="advancedbutton">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

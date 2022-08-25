@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    height: 100%;
+    font-family: arial, sans-serif;
+    color: #333333;
+}
+.toplinks{
+    text-align: right;
+    padding: 20px;
+}
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 109px;
+    margin-bottom: 10px;
+}
+#ImagesLogo{
+    background:url(https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png);
+    background-size: 272px 92px;
+    height: 92px;
+    width: 272px;
+    position: relative;
+}
+#imagestext{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    color: #4285f4;
+}
+#center{
+    text-align: center;
+    margin: 15px auto 0px auto;
+    display: block;
+    border-radius: 30px;
+    width: 575px;
+    border: 1px solid #DCDCDC;
+    position: relative;
+    margin-bottom: 25px;
+}
+#center:hover{
+    box-shadow: 1px 1px 5px 1px #D3D3D3;
+    border: 1px solid white;
+}
+.bar{
+    height: 45px;
+    border: none;
+    width: 500px;
+    font-size: 16px;
+    outline: none;
+}
+a:link{
+    text-decoration: none;
+    font-size: small;
+    color: #333333;
+}
+a:hover{
+    color: #696969;
+    text-decoration: underline;
+}
+.Button{
+    border: none;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    color: #696969;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 10px 16px;
+    border: 1px solid white;
+}
+.Button:hover{
+    border: 1px solid #D3D3D3;
+    color: black;
+}
+.Button:focus{
+    border: 1px solid #4285f4;
+    outline: 0;
+}
+#searchbutton{
+    background: transparent;
+    border: none;
+}
+.searchsymbol{
+    position: absolute;
+    top: 40%;
+    margin: -5px 0px 0px 0px;
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px
+}
+#searchbutton:focus{
+    outline: 0;
+    border: none;
+}
+#header {
+    background-color: rgb(241, 239, 239);
+    padding: 10px 0px;
+    position: relative;
+}
+#headerlogo {
+    margin: 4px;
+    margin-left: 17px;
+    background-image:url('https://www.gstatic.com/gb/images/i1_1967ca6a.png');
+    height: 33px;
+    width: 92px;
+    overflow: hidden;
+    background-position:0 -35px;
+}
+.stack{
+    height: 42px;
+    position: relative;
+}
+.inputbox {
+    height: 20px;
+    width: 40%;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    padding: 1px 8px 1px 8px;
+    font-size: 13px;
+    height: 25px;
+    display: inline-block;
+}
+.inputbox:focus {
+    outline: none;
+    border: 1px solid #4285f4;
+}
+.stacktext {
+    font-size: 13px;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+}
+.infotext{
+    vertical-align: center;
+    color:#666;
+    font-size: 11px;
+    margin-left: 11px;
+}
+.infotextmono{
+    font-family: monospace;
+}
+.textcontainer{
+    width: 14%;
+    display: inline-block;
+}
+.infocontainer {
+    position: relative;
+    display: inline;
+    top: 0%;
+    max-width: 350px;
+}
+#advancedbutton {
+    background-color: #4D90Fe;
+    border-radius: 2px;
+    border:1px solid #3079ed;
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    height: 30px;
+    padding: 0px 10px 0px 10px;
+}
+#advancedbutton:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 1px white inset;
+}
+#advancedbutton:not(:focus):hover {
+    border: 1px solid #1d50a1;
+    box-shadow: 0px 0px 10px 1px #3b7eef inset;
+}
